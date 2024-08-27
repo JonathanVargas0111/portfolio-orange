@@ -54,15 +54,14 @@ const texts = {
 type Language = 'en' | 'es';
 
 const About = () => {
-  const [language, setLanguage] = useState('es'); // Estado para el idioma actual
+  const [language, setLanguage] = React.useState<Language>('es'); // Estado para el idioma actual
 
   // Función para alternar el idioma
   const toggleLanguage = () => {
     setLanguage(prevLang => (prevLang === 'es' ? 'en' : 'es'));
   };
-
-  const languageKey: Language = 'en'; 
-  const aboutText = texts[languageKey];
+  
+  const aboutText = texts[language];
 
   return (
     <div className='px-2 max-w-[1200px]  lg:mx-auto' id='about'>
