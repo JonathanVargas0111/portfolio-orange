@@ -65,7 +65,7 @@ const About = () => {
 
   return (
     <div className='px-2 max-w-[1200px]  lg:mx-auto' id='about'>
-      <h1 className='text-white text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-4 bg-gradient-to-r from-[#55A1FF] to-[#6EF3FF] bg-clip-text text-transparent'>
+      <h1 className='text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-4 bg-gradient-to-r from-[#55A1FF] to-[#6EF3FF] bg-clip-text text-transparent'>
         {aboutText.title}
       </h1>
 
