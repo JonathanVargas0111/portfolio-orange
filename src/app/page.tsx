@@ -5,6 +5,7 @@ import Portfolio from "@/components/Portfolio";
 import Skills from "@/components/Skills"
 import Footer from "@/components/Footer"
 import Image from "next/image";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <About/>
       <Portfolio/>
       <Skills/>
+      <Contact/>
       <Footer/>
     </>
   );
