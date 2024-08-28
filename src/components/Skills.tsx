@@ -14,8 +14,8 @@ const skillIcons = [
 
 const Skills = () => {
   return (
-    <div className='bg-gradient-to-t from-black to-[#381a5f] py-32'>
-      <div className='text-white max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
+    <div className='bg-gradient-to-t from-black to-[#381a5f] py-32' id='skills'>
+      <div className='text-white max-w-5xl mx-auto px-4 sm:px-6 lg:px-8'>
         <h2 className='text-6xl max-w-md mx-auto font-semibold mb-12 bg-gradient-to-r from-[#55A1FF] to-[#6EF3FF] bg-clip-text text-transparent text-center'>
           What I Do
         </h2>

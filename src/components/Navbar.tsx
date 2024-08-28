@@ -6,6 +6,7 @@ import { useState } from 'react';
 
 const navLinks = [
     { title: 'About', path: '#about' },
+    { title: 'Portfolio', path: '#portfolio' },
     { title: 'Skills', path: '#skills' },
 
 ]
@@ -24,17 +25,17 @@ const Navbar = () => {
 
     const menuVariants = {
         open: {
-            x:0,
-            transition:{
-                stiffness:20,
-                damping:15
+            x: 0,
+            transition: {
+                stiffness: 20,
+                damping: 15
             }
         },
-        closed:{
-            x:'-100%',
-            transition:{
-                stiffness:20,
-                damping:15
+        closed: {
+            x: '-100%',
+            transition: {
+                stiffness: 20,
+                damping: 15
             }
         }
     }
@@ -43,7 +44,7 @@ const Navbar = () => {
     return (
 
         <div className='text-white/70 pt-6'>
-            <div className="hidden md:flex items-start px-4 py-2 mx-auto max-w-[400px]">
+            <div className="hidden md:flex items-start px-4 py-2 mx-auto max-w-[500px]">
                 <ul className='flex flex-row p-4 space-x-8'>
                     {
                         navLinks.map((link, index) => (

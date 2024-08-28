@@ -54,7 +54,7 @@ const texts = {
 type Language = 'en' | 'es';
 
 const About = () => {
-  const [language, setLanguage] = React.useState<Language>('es'); // Estado para el idioma actual
+  const [language, setLanguage] = React.useState<Language>('en'); // Estado para el idioma actual
 
   // Función para alternar el idioma
   const toggleLanguage = () => {
