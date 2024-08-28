@@ -126,12 +126,12 @@ const About = () => {
       </div>
 
       {/* Botón para cambiar idioma */}
-      <button
+      {/* <button
         className='mt-6 bg-amber-500 hover:bg-amber-600 text-white py-2 px-4 rounded-lg'
         onClick={toggleLanguage}
       >
         {aboutText.languageButton}
-      </button>
+      </button> */}
     </div>
   );
 };
