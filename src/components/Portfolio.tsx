@@ -47,13 +47,13 @@ const projects = [
 ]
 const Portfolio = () => {
   return (
-    <div className='text-white bg-gradient-to-b from-black to-[#381a5f] py-18 mt-40' id='portfolio'>
+    <div className='text-white bg-gradient-to-b from-black to-[#381a5f] py-18 px-2 mt-40' id='portfolio'>
 
       <h1 className='text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-4 bg-gradient-to-r from-[#55A1FF] to-[#6EF3FF] bg-clip-text text-transparent'>
         Projects
       </h1>
 
-      <div className='max-w-[1000px] mx-auto mt-40 space-y-24'>
+      <div className='md:max-w-[1000px] mx-auto mt-40 space-y-24'>
         {
           projects.map((project, index) => (
             <motion.div
@@ -62,9 +62,8 @@ const Portfolio = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.25 }}
-              className={`mt-12 flex ${index % 2 === 1 ? 'flex-col-reverse md:flex-row-reverse gap-12' : 'flex-col md:flex-row'}`}
+              className={`mt-12 flex flex-col ${index % 2 === 1 ? 'md:flex-row-reverse gap-12' : 'md:flex-row'}`}
             >
-
               <div className='space-y-2 mx-w-[350px]'>
                 <h2 className='text-7xl my-4 text-white/70'>{`0${index + 1}`}</h2>
                 <h2 className='text-4xl'>{project.title}</h2>
@@ -79,7 +78,6 @@ const Portfolio = () => {
                   }
                 </div>
               </div>
-
               <div className='flex justify-center items-center'>
                 <Image src={project.src} alt={project.title}
                   className='h-[400px] w-auto object-cover border rounded border-gray-700'
