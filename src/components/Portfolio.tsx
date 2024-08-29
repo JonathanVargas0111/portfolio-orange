@@ -17,7 +17,7 @@ const projects = [
     desc: 'Developed an online store using WordPress and WooCommerce with a custom product filter built with jQuery.',
     devstack: 'WordPress, WooCommerce, jQuery, JS, MySQL',
     link: "https://toryskateshop.com/",
-    git: "",
+    git: "",  
     src: project5
   },
   {
@@ -30,18 +30,18 @@ const projects = [
   },
   {
     title: 'hai.com',
-    desc: 'Designed and developed a multi-author blog platform on WordPress with an integrated comment system.',
-    devstack: 'WordPress, jQuery, PHP, MySQL',
+    desc: 'HAI, an innovative platform offering personalized resources for dietary health, with a multi-author blog and ecommerce features',
+    devstack: 'WordPress, jQuery, WooCommerce, MySQL',
     link: "https://hai.com.co/?v=8fab2b569f00",
     git: "",
     src: project3
   },
   {
-    title: 'Inventory Management System',
-    desc: 'Built a custom inventory management system using Laravel for the backend and jQuery for dynamic frontend interactions.',
-    devstack: 'Laravel, jQuery, JS, MySQL',
-    link: "#",
-    git: "#",
+    title: 'tory-rifa-misteriosa',
+    desc: 'Developed a mysterious raffle app with NextJS and Tailwind CSS for styling. Users can buy tickets and a winner is randomly selected.',
+    devstack: 'NextJs, JS, Tailwind CSS',
+    link: "https://tory-rifa-misteriosa.vercel.app/",
+    git: "https://github.com/cristiansk8/tory-rifa-misteriosa",
     src: project4
   },
 ]
@@ -53,7 +53,7 @@ const Portfolio = () => {
         Projects
       </h1>
 
-      <div className='md:max-w-[1000px] mx-auto mt-40 space-y-24'>
+      <div className='md:max-w-[1000px] mx-auto mt-36 space-y-24'>
         {
           projects.map((project, index) => (
             <motion.div
@@ -62,26 +62,28 @@ const Portfolio = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.25 }}
-              className={`mt-12 flex flex-col ${index % 2 === 1 ? 'md:flex-row-reverse gap-12' : 'md:flex-row'}`}
+              className={`mt-12 flex flex-col ${index % 2 === 1 ? 'md:flex-row-reverse gap-12' : 'md:flex-row gap-12'}`}
             >
               <div className='space-y-2 mx-w-[350px]'>
                 <h2 className='text-7xl my-4 text-white/70'>{`0${index + 1}`}</h2>
                 <h2 className='text-4xl'>{project.title}</h2>
-                <p className='text-lg text-white/70 break-words p-4'>{project.desc}</p>
-                <p className='text-xl text-[#55A1FF] font-semibold'>{project.devstack}</p>
+                <p className='text-lg text-white/70 break-words py-4'>{project.desc}</p>
+                <p className='text-lg text-[#55A1FF] font-semibold'>{project.devstack}</p>
                 <div className='w-64 h-[1px] bg-gray-400 my-4 flex gap-6'>
                   {
-                    project.link ? <a href={project.link} target='_blank'>Link</a> : ""
+                    project.link ? <a href={project.link} target='_blank' className='mt-2'>Link</a> : ""
                   }
                   {
-                    project.git ? <a href={project.git}>Git</a> : ""
+                    project.git ? <a href={project.git} target='_blank' className='mt-2'>Git</a> : ""
                   }
                 </div>
               </div>
-              <div className='flex justify-center items-center'>
-                <Image src={project.src} alt={project.title}
-                  className='h-[400px] w-auto object-cover border rounded border-gray-700'
-                ></Image>
+              <div className='flex justify-center items-center w-full'>
+                <a href={project.link} target='_blank'>
+                  <Image src={project.src} alt={project.title}
+                    className='h-[400px] w-auto object-cover border rounded border-gray-700'
+                  ></Image>
+                </a>
               </div>
 
             </motion.div>
