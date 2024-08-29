@@ -1,61 +1,97 @@
-# Portfolio Cristian Parra
+![screenshot nav hero Desktop](readme-images/nav-hero-desktop.png)
 
-Este es un proyecto desarrollado en Next.js. Es un portfolio diseñado para mostrar las habilidades, proyectos y experiencia profesional de Cristian Parra.
+# <span style="color: #0396a1;">Portfolio Cristian Parra</span>
 
-## Demo
+Este es un proyecto de portafolio personal desarrollado en Next.js para mostrar las habilidades, proyectos y experiencia profesional de Cristian Parra. El sitio tiene un diseño moderno, responsivo y cuenta con animaciones interactivas.
 
-Puedes ver una demostración en vivo de este proyecto en [cristian-parra.vercel.app/](https://cristian-parra.vercel.app/)
+## <span style="color: #0396a1;">Tecnologías Utilizadas</span>
 
-Esta versión en vivo refleja el diseño responsivo, las animaciones interactivas y la organización de contenidos del portfolio, permitiendo a los usuarios explorar los distintos proyectos y habilidades que Cristian ha adquirido a lo largo de su carrera.
+#### El portafolio fue construido con las siguientes tecnologías:
 
-## Características
+| **Next.js** | **JavaScript** | **Tailwind CSS** | **TypeScript** | **Framer Motion** |
+|:-----------:|:--------------:|:----------------:|:--------------:|:-----------------:|
+| <img src="readme-images/nextjs.png" alt="Next.js" width="60" /> | <img src="readme-images/javascript.png" alt="JavaScript" width="60" /> | <img src="readme-images/tailwind.png" alt="Tailwind CSS" width="60" /> | <img src="readme-images/typescript.png" alt="TypeScript" width="60" /> | <img src="https://konstantinlebedev.com/static/76d81ec25cd799b15cd16c0b16e869af/cover.png" alt="Framer Motion" width="60" /> |
+
+## <span style="color: #0396a1;">Demo</span>
+
+Explora el proyecto en vivo en [cristian-parra.vercel.app/](https://cristian-parra.vercel.app/)
+
+## <span style="color: #0396a1;">La demo incluye:</span>
+
+- Diseño adaptable a dispositivos móviles y de escritorio
+- Animaciones sutiles y fluidas utilizando Framer Motion
+- Navegación intuitiva y rápida
+
+## <span style="color: #0396a1;">Características</span>
 
 - **Diseño Responsivo**: Adaptado para verse bien en dispositivos móviles y de escritorio.
 - **Componentes Reutilizables**: Utiliza componentes de React para una fácil personalización.
 - **Integracion de Motion**: Utilizado para dar animaciones simples y elegantes.
 
-## Estructura del Proyecto
+## <span style="color: #0396a1;">Capturas de Pantalla</span>
 
-El proyecto se organiza en varios componentes principales, cada uno diseñado para cumplir una función específica en el portfolio:
+### Navbar Section y Hero Section
 
-#### Este proyecto incluye los siguientes componentes principales:
+<div style="display: flex; justify-content: space-around; align-items: center; gap: 20px;">
+  <div>
+    <strong>Mobile</strong><br/>
+    <img src="readme-images/nav-hero-mobile.png" alt="Nav-Hero Mobile" />
+  </div>
+  <div>
+    <strong>Desktop</strong><br/>
+    <img src="readme-images/nav-hero-desktop.png" alt="Nav-Hero Desktop" />
+  </div>
+</div>
 
-### Navbar, Hero.
+### About Section
+<div style="display: flex; justify-content: space-around; align-items: center; gap: 20px;">
+  <div>
+    <strong>Mobile</strong><br/>
+    <img src="readme-images/about-mobile.png" alt="About Mobile" />
+  </div>
+  <div>
+    <strong>Desktop</strong><br/>
+    <img src="readme-images/about-desktop.png" alt="About Desktop" />
+  </div>
+</div>
 
-##### Versión Mobile
-![screenshot nav hero Mobile](readme-images/nav-hero-mobile.png)
-##### Versión Desktop 
-![screenshot nav hero Desktop](readme-images/nav-hero-desktop.png)
+### Portfolio Section
+<div style="display: flex; justify-content: space-around; align-items: center; gap: 20px;">
+  <div>
+    <strong>Mobile</strong><br/>
+    <img src="readme-images/portfolio-mobile.png" alt="Portfolio Mobile" />
+  </div>
+  <div>
+    <strong>Desktop</strong><br/>
+    <img src="readme-images/portfolio-desktop.png" alt="Portfolio Desktop" />
+  </div>
+</div>
 
-### About
+### Skills Section
+<div style="display: flex; justify-content: space-around; align-items: center; gap: 20px;">
+  <div>
+    <strong>Mobile</strong><br/>
+    <img src="readme-images/skills-mobile.png" alt="Skills Mobile" />
+  </div>
+  <div>
+    <strong>Desktop</strong><br/>
+    <img src="readme-images/skills-desktop.png" alt="Skills Desktop" />
+  </div>
+</div>
 
-##### Versión Mobile
-![screenshot about Mobile](readme-images/about-mobile.png)
+### Contact Section y Footer Section
+<div style="display: flex; justify-content: space-around; align-items: center; gap: 20px;">
+  <div>
+    <strong>Mobile</strong><br/>
+    <img src="readme-images/contact-footer-mobile.png" alt="Contact Mobile" />
+  </div>
+  <div>
+    <strong>Desktop</strong><br/>
+    <img src="readme-images/contact-footer-desktop.png" alt="Contact Desktop" />
+  </div>
+</div>
 
-##### Versión Desktop
-![screenshot about Desktop](readme-images/about-desktop.png)
-
-
-
-### Portfolio
-
-##### Versión Mobile
-![screenshot Portfolio Mobile](readme-images/portfolio-mobile.png)
-##### Versión Desktop
-![screenshot Portfolio Desktop](readme-images/portfolio-desktop.png)
-
-### Skills
-
-##### Versión Mobile
-![screenshot Skills Mobile](readme-images/skills-mobile.png)
-
-##### Versión Desktop
-![screenshot Skills Desktop](readme-images/skills-desktop.png)
-
-
-
-
-## Pruebalo
+## <span style="color: #0396a1;">Cómo Ejecutarlo Localmente</span>
 
 ### Instalación y Uso
 
@@ -82,6 +118,7 @@ bun dev
 ```
 
 Una vez iniciado, abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el proyecto en acción. Este entorno de desarrollo te permite realizar cambios y ver las actualizaciones en tiempo real.
+
 
 ## ¡Mantente en Contacto! 🌐
 
