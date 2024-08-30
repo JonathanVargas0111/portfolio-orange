@@ -64,12 +64,14 @@ const About = () => {
   const aboutText = texts[language];
 
   return (
-    <div className='px-2 max-w-[1200px]  lg:mx-auto' id='about'>
+    <div className='bg-gradient-to-t from-black  to-black py-8'>
+
+    <div className='px-2 max-w-[1200px]  lg:mx-auto ' id='about'>
       <h1 className='text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-4 bg-gradient-to-r from-[#55A1FF] to-[#6EF3FF] bg-clip-text text-transparent'>
         {aboutText.title}
       </h1>
 
-      <div className='grid lg:grid-cols-8 gap-6 place-items-center'>
+      <div className='grid lg:grid-cols-8 gap-6 lg:gap-4 place-items-center'>
 
 
         <div className='w-full lg:col-span-5 relative bg-white/10 backdrop-blur-sm
@@ -132,6 +134,7 @@ const About = () => {
       >
         {aboutText.languageButton}
       </button> */}
+    </div>
     </div>
   );
 };

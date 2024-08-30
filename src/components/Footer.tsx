@@ -4,8 +4,8 @@ import { FaLinkedin, FaInstagram } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div>
-      <div className='mt-12 text-white/70 py-8 px-6 max-w-5xl mx-auto pt-4 flex justify-between items-center'>
+    <div className='bg-gradient-to-t from-black  to-black py-8'>
+      <div className='mt-12 text-white/70  px-6 max-w-5xl mx-auto pt-4 flex justify-between items-center'>
         <h1 className='text-2xl font-bold'>Cristian Parra</h1>
         <div className='flex space-x-6 mt-4'>
           <a href='https://www.linkedin.com/in/cristian-parra-290536193/' className='hover:text-gray-300' target='_blank'>

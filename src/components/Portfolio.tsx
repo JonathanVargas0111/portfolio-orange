@@ -47,7 +47,7 @@ const projects = [
 ]
 const Portfolio = () => {
   return (
-    <div className='text-white bg-gradient-to-b from-black to-[#381a5f] py-18 px-2 mt-40' id='portfolio'>
+    <div className='text-white bg-gradient-to-b from-black to-[#381a5f] pt-40 pb-18  px-2' id='portfolio'>
 
       <h1 className='text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-4 bg-gradient-to-r from-[#55A1FF] to-[#6EF3FF] bg-clip-text text-transparent'>
         Projects
